@@ -33,7 +33,7 @@ namespace ConsoleUI
         }
         private static void CategoryDalTest()
         {
-            NSPCategoryDal nSPCategoryDal = new NSPCategoryDal();
+            NSCategoryDal nSPCategoryDal = new NSCategoryDal();
             string query = "select*from categories";
             DataSet dataSet = new DataSet();
             dataSet = nSPCategoryDal.List(query);

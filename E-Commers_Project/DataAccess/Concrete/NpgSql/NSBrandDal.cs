@@ -2,7 +2,7 @@
 
 namespace DataAccess.Concrete.NpgSql
 {
-    public class NSBrandDal : NSPRepositoryBase, IBrandDal
+    public class NSBrandDal : NSRepositoryBase, IBrandDal
     {
     }
 }

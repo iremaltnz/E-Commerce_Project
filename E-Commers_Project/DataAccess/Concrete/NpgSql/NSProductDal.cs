@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.NpgSql
 {
-  public  class NSProductDal:NSPRepositoryBase,IProductDal
+  public  class NSProductDal:NSRepositoryBase,IProductDal
     {
     }
 }
