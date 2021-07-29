@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wwLHJSrlFzHIFbGZ2TGY9OOzg7RG9v73FKgghmxVtQBj/e50O7aRuGCtdBI8kEkuhRfFtvb2dRw2OjHW78xEwQ==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\ConsoleUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
