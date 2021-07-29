@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wwLHJSrlFzHIFbGZ2TGY9OOzg7RG9v73FKgghmxVtQBj/e50O7aRuGCtdBI8kEkuhRfFtvb2dRw2OjHW78xEwQ==",
+  "dgSpecHash": "SXkE5x2Z++E9zlJ57CXyBrofzHeEeja0lbNmDd3pqSeDIlklNg7qTZWo9qin/Z9N5zg4FeJ81sppHQxiPbdGYQ==",
   "success": true,
   "projectFilePath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CASPER\\.nuget\\packages\\npgsql\\5.0.7\\npgsql.5.0.7.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
