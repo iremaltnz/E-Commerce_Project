@@ -8,24 +8,41 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-           
+            //BrandDalTest();
+            //ColorDalTest();
+        }
 
-            NSRepositoryBase nSRepositoryBase = new NSRepositoryBase();
-            string query= "select*from colors";
+        private static void BrandDalTest()
+        {
+            NSBrandDal nSBrandDal = new NSBrandDal();
+            string query = "select*from brands";
             DataSet dataSet = new DataSet();
-            dataSet=nSRepositoryBase.List(query);
+            dataSet = nSBrandDal.List(query);
 
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
             {
-                Console.Write( dataSet.Tables[0].Rows[i]["color_id"].ToString());
+                Console.Write(dataSet.Tables[0].Rows[i]["brand_id"].ToString());
+
+                Console.Write(dataSet.Tables[0].Rows[i]["brand_name"].ToString());
+                Console.WriteLine();
+
+            }
+        }
+        private static void ColorDalTest()
+        {
+            NSColorDal nSColorDal = new NSColorDal();
+            string query = "select*from colors";
+            DataSet dataSet = new DataSet();
+            dataSet = nSColorDal.List(query);
+
+            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            {
+                Console.Write(dataSet.Tables[0].Rows[i]["color_id"].ToString());
 
                 Console.Write(dataSet.Tables[0].Rows[i]["color_name"].ToString());
                 Console.WriteLine();
+
             }
-
-            string query2 = "insert into public.colors(color_name) values ('gold')";
-
-            nSRepositoryBase.Add(query2);
         }
     }
 }
