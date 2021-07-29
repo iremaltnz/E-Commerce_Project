@@ -8,8 +8,8 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            //BrandDalTest();
-            //ColorDalTest();
+            BrandDalTest();
+            ColorDalTest();
         }
 
         private static void BrandDalTest()
