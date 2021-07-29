@@ -8,24 +8,43 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-           
+            ProductDalTest();
+            CategoryDalTest();
 
-            NSRepositoryBase nSRepositoryBase = new NSRepositoryBase();
-            string query= "select*from colors";
+        }
+
+        private static void CategoryDalTest()
+        {
+            NSPCategoryDal nSPCategoryDal = new NSPCategoryDal();
+            string query = "select*from categories";
             DataSet dataSet = new DataSet();
-            dataSet=nSRepositoryBase.List(query);
+            dataSet = nSPCategoryDal.List(query);
 
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
             {
-                Console.Write( dataSet.Tables[0].Rows[i]["color_id"].ToString());
+                Console.Write(dataSet.Tables[0].Rows[i]["category_id"].ToString());
 
-                Console.Write(dataSet.Tables[0].Rows[i]["color_name"].ToString());
+                Console.Write(dataSet.Tables[0].Rows[i]["category_name"].ToString());
                 Console.WriteLine();
+
             }
+        }
 
-            string query2 = "insert into public.colors(color_name) values ('gold')";
+        private static void ProductDalTest()
+        {
+            NSProductDal nSProductDal = new NSProductDal();
+            string query = "select*from products";
+            DataSet dataSet = new DataSet();
+            dataSet = nSProductDal.List(query);
 
-            nSRepositoryBase.Add(query2);
+            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            {
+                Console.Write(dataSet.Tables[0].Rows[i]["product_id"].ToString());
+
+                Console.Write(dataSet.Tables[0].Rows[i]["product_name"].ToString());
+                Console.WriteLine();
+
+            }
         }
     }
 }
