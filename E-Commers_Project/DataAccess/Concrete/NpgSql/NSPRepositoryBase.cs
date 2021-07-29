@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.NpgSql
 {
-    public class NSRepositoryBase : IEntityRepository
+    public class NSPRepositoryBase : IEntityRepository
     {
         NpgsqlConnection npgsql= new NpgsqlConnection(@"Server=chunee.db.elephantsql.com;Port=5432;User Id=lnimvljt;Password=YXkBhzMdvSpezCyfWKKcZyqOhKWy7-Iz;Database=lnimvljt");
         public void Add(string query)
