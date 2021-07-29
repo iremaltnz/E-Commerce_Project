@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6V3/PZO/Ryoq7oDAgba4N3P4jeGT4sN4J29qBqP1oqWb3ZJiSWNTPQ26aGAIxBMvMdQKKv5vN6Yne6Z67PoLw==",
+  "dgSpecHash": "QacWkgdnoKcJ7LRuGKfuQdIcJi4cpoOI3SVrL9KyPAaSKlOBvdL3gaSTY9tWRq1uC6mfdgMZPTEJFHlQyfQqog==",
   "success": true,
-  "projectFilePath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\github\\E-Commers_Project\\E-Commers_Project\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\nemo_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nemo_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

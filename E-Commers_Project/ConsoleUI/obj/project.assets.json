@@ -1,88 +1,26 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Business/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Business.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Business.dll": {}
-        }
-      },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
-        }
-      },
-      "Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entities.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Business/1.0.0": {
-      "type": "project",
-      "path": "../Business/Business.csproj",
-      "msbuildProject": "../Business/Business.csproj"
-    },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
-    },
-    "Entities/1.0.0": {
-      "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Business >= 1.0.0",
-      "DataAccess >= 1.0.0",
-      "Entities >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\CASPER\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\nemo_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "D:\\github\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\ConsoleUI.csproj",
-      "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\obj\\",
+      "projectPath": "D:\\github\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\ConsoleUI.csproj",
+      "packagesPath": "C:\\Users\\nemo_\\.nuget\\packages\\",
+      "outputPath": "D:\\github\\E-Commers_Project\\E-Commers_Project\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nemo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -95,17 +33,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Business\\Business.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Business\\Business.csproj"
-            },
-            "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\DataAccess\\DataAccess.csproj"
-            },
-            "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Entities\\Entities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -127,18 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.13, 3.1.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

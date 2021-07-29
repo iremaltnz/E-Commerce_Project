@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WdM0/Y5s14M/r/UJoy2EONkuprxTO4ubLL/T+E3ydpTmghN9+WHNN69xD4IzwsBaHvLUp7poiiZKbPTTfMq+CA==",
+  "dgSpecHash": "rrRSccbqldQR2plofyslRSYWCs7iZv6dCAj46h5rGQnT9GMHEkEK5BPWl5AiGUJBSu7cq6aqafq5TBjLMsXvMw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\github\\E-Commers_Project\\E-Commers_Project\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\nemo_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nemo_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

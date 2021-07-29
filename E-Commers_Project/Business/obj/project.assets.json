@@ -25,29 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
-        }
-      },
-      "Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entities.dll": {}
-        }
       }
     }
   },
@@ -194,43 +171,27 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
-    },
-    "Entities/1.0.0": {
-      "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "DataAccess >= 1.0.0",
-      "Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CASPER\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\nemo_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Business\\Business.csproj",
+      "projectUniqueName": "D:\\github\\E-Commers_Project\\E-Commers_Project\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Business\\Business.csproj",
-      "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Business\\obj\\",
+      "projectPath": "D:\\github\\E-Commers_Project\\E-Commers_Project\\Business\\Business.csproj",
+      "packagesPath": "C:\\Users\\nemo_\\.nuget\\packages\\",
+      "outputPath": "D:\\github\\E-Commers_Project\\E-Commers_Project\\Business\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nemo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -243,14 +204,7 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {
-            "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\DataAccess\\DataAccess.csproj"
-            },
-            "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\Entities\\Entities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -280,7 +234,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
