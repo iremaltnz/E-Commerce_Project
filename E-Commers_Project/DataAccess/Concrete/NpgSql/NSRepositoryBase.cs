@@ -39,7 +39,10 @@ namespace DataAccess.Concrete.NpgSql
 
         public void Update(string query)
         {
-            throw new NotImplementedException();
+            npgsql.Open();
+            NpgsqlCommand npgsqlCommandUpdt = new NpgsqlCommand(query, npgsql);
+            npgsqlCommandUpdt.ExecuteNonQuery();
+            npgsql.Close();
         }
     }
 }
