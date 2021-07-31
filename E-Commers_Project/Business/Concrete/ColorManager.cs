@@ -42,7 +42,7 @@ namespace Business.Concrete
                 color = new Color();
 
                 color.ColorId = Convert.ToInt32(dataSet.Tables[0].Rows[i]["color_id"]);
-
+                color.ColorName = dataSet.Tables[0].Rows[i]["color_name"].ToString();
 
                 colors.Add(color);
             }

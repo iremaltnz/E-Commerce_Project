@@ -13,78 +13,69 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            BrandDalTest();
-            ColorDalTest();
-            ProductDalTest();
-            CategoryDalTest();
+            BrandList();
+            ColorList();
+            ProductList();
+            CategoryList();
 
         }
 
-        private static void BrandDalTest()
+        private static void BrandList()
         {
-            NSBrandDal nSBrandDal = new NSBrandDal();
-            string query = "select*from brands";
-            DataSet dataSet = new DataSet();
-            dataSet = nSBrandDal.List(query);
+            BrandManager brandManager = new BrandManager(new NSBrandDal());
+            List<Brand> brands = new List<Brand>();
 
-            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            brands = brandManager.List();
+            foreach (var b in brands)
             {
-                Console.Write(dataSet.Tables[0].Rows[i]["brand_id"].ToString());
-
-                Console.Write(dataSet.Tables[0].Rows[i]["brand_name"].ToString());
-                Console.WriteLine();
-
+                Console.WriteLine(b.BrandName);
             }
+
+            Console.WriteLine("-----------");
 
         }
-        private static void CategoryDalTest()
+        private static void CategoryList()
         {
 
-            NSCategoryDal nSCategoryDal = new NSCategoryDal();
+            CategoryManager category = new CategoryManager(new NSCategoryDal());
+            List<Category> categories = new List<Category>();
 
-            string query = "select*from categories";
-            DataSet dataSet = new DataSet();
-            dataSet = nSCategoryDal.List(query);
-
-            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            categories = category.List();
+            foreach (var c in categories)
             {
-                Console.Write(dataSet.Tables[0].Rows[i]["category_id"].ToString());
-
-                Console.Write(dataSet.Tables[0].Rows[i]["category_name"].ToString());
-                Console.WriteLine();
-
+                Console.WriteLine(c.CategoryName);
             }
-        }
-        private static void ColorDalTest()
+
+            Console.WriteLine("-----------");
+    }
+        private static void ColorList()
         {
-            NSColorDal nSColorDal = new NSColorDal();
-            string query = "select*from colors";
-            DataSet dataSet = new DataSet();
-            dataSet = nSColorDal.List(query);
 
-            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            ColorManager colorManager = new ColorManager(new NSColorDal());
+            List<Color> colors = new List<Color>();
+
+            colors = colorManager.List();
+            foreach (var c in colors)
             {
-                Console.Write(dataSet.Tables[0].Rows[i]["color_id"].ToString());
-
-                Console.Write(dataSet.Tables[0].Rows[i]["color_name"].ToString());
-                Console.WriteLine();
+                Console.WriteLine(c.ColorName);
             }
+
+            Console.WriteLine("-----------");
         }
 
-        private static void ProductDalTest()
+        private static void ProductList()
         {
-            NSProductDal nSProductDal = new NSProductDal();
-            string query = "select*from products";
-            DataSet dataSet = new DataSet();
-            dataSet = nSProductDal.List(query);
 
-            for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
+            ProductManager productManager = new ProductManager(new NSProductDal());
+            List<Product> products = new List<Product>();
+
+            products = productManager.List();
+            foreach (var p in products)
             {
-                Console.Write(dataSet.Tables[0].Rows[i]["product_id"].ToString());
-
-                Console.Write(dataSet.Tables[0].Rows[i]["product_name"].ToString());
-                Console.WriteLine();
+                Console.WriteLine(p.ProductName);
             }
+
+            Console.WriteLine("-----------");
         }
 
             
