@@ -13,19 +13,11 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            //BrandDalTest();
-            //ColorDalTest();
-            //ProductDalTest();
-            //CategoryDalTest();
+            BrandDalTest();
+            ColorDalTest();
+            ProductDalTest();
+            CategoryDalTest();
 
-            IProductService productService = new ProductManager(new NSProductDal());
-            List<Product> products = new List<Product>();
-           products= productService.List();
-
-            foreach (var p in products)
-            {
-                Console.WriteLine(p.ProductName);
-            }
         }
 
         private static void BrandDalTest()
