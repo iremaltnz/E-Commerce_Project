@@ -32,17 +32,19 @@ namespace ConsoleUI
                 Console.Write(dataSet.Tables[0].Rows[i]["brand_id"].ToString());
 
                 Console.Write(dataSet.Tables[0].Rows[i]["brand_name"].ToString());
-           
+                Console.WriteLine();
 
-             }
+            }
 
         }
         private static void CategoryDalTest()
         {
-            NSCategoryDal nSPCategoryDal = new NSCategoryDal();
+
+            NSCategoryDal nSCategoryDal = new NSCategoryDal();
+
             string query = "select*from categories";
             DataSet dataSet = new DataSet();
-            dataSet = nSPCategoryDal.List(query);
+            dataSet = nSCategoryDal.List(query);
 
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
             {
