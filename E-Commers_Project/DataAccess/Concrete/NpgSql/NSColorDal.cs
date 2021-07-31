@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.NpgSql
 {
-    public class NSColorDal : NSRepositoryBase, IBrandDal
+    public class NSColorDal : NSRepositoryBase, IColorDal
     {
     }
 }

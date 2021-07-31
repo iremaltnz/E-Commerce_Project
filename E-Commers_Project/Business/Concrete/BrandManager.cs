@@ -42,7 +42,7 @@ namespace Business.Concrete
                 brand = new Brand();
                 
                 brand.BrandId = Convert.ToInt32(dataSet.Tables[0].Rows[i]["brand_id"]);
-             
+                brand.BrandName = dataSet.Tables[0].Rows[i]["brand_name"].ToString();
 
                 brands.Add(brand);
             }
