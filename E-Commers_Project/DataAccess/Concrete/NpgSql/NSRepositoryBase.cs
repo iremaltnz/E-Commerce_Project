@@ -15,13 +15,19 @@ namespace DataAccess.Concrete.NpgSql
            
             NpgsqlCommand cmd = new NpgsqlCommand(query, npgsql);
             npgsql.Open();
+
            int x= cmd.ExecuteNonQuery();
+
             npgsql.Close();
         }
 
         public void Delete(string query)
         {
-            throw new NotImplementedException();
+
+            npgsql.Open();
+            NpgsqlCommand npgsqlCommand = new NpgsqlCommand(query, npgsql);
+            npgsqlCommand.ExecuteNonQuery();
+            npgsql.Close();
         }
 
         public DataSet List(string query)

@@ -1,5 +1,10 @@
-﻿using DataAccess.Concrete.NpgSql;
+﻿using Business.Abstract;
+using Business.Concrete;
+using DataAccess.Abstract;
+using DataAccess.Concrete.NpgSql;
+using Entities.Concrete;
 using System;
+using System.Collections.Generic;
 using System.Data;
 
 namespace ConsoleUI
@@ -12,6 +17,7 @@ namespace ConsoleUI
             ColorDalTest();
             ProductDalTest();
             CategoryDalTest();
+
         }
 
         private static void BrandDalTest()
@@ -33,7 +39,9 @@ namespace ConsoleUI
         }
         private static void CategoryDalTest()
         {
+
             NSCategoryDal nSCategoryDal = new NSCategoryDal();
+
             string query = "select*from categories";
             DataSet dataSet = new DataSet();
             dataSet = nSCategoryDal.List(query);
