@@ -21,12 +21,14 @@ namespace Business.Concrete
         }
         public void Add(Color color)
         {
-            throw new NotImplementedException();
+            query = "insert into public.colors(color_name) values ('" + color.ColorName + "')";
+            _colorDal.Add(query);
         }
 
         public void Delete(Color color)
         {
-            throw new NotImplementedException();
+            query = @"delete from public.colors where color_id=" + color.ColorId;
+            _colorDal.Delete(query);
         }
 
         public List<Color> List()
@@ -52,7 +54,8 @@ namespace Business.Concrete
 
         public void Update(Color color)
         {
-            throw new NotImplementedException();
+            query = @"update public.colors set color_name='" + color.ColorName + "' where color_id=" + color.ColorId;
+            _colorDal.Update(query);
         }
     }
 

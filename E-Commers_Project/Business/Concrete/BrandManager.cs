@@ -21,12 +21,14 @@ namespace Business.Concrete
         }
         public void Add(Brand brand)
         {
-            throw new NotImplementedException();
+            query = "insert into public.brands(brand_name) values ('" + brand.BrandName + "')";
+            _brandDal.Add(query);
         }
 
         public void Delete(Brand brand)
         {
-            throw new NotImplementedException();
+            query = @"delete from public.brands where brand_id=" + brand.BrandId;
+            _brandDal.Delete(query);
         }
 
         public List<Brand> List()
@@ -52,7 +54,8 @@ namespace Business.Concrete
 
         public void Update(Brand brand)
         {
-            throw new NotImplementedException();
+            query = @"update public.brands set brand_name='" + brand.BrandName + "' where brand_id=" + brand.BrandId;
+            _brandDal.Update(query);
         }
     }
 
