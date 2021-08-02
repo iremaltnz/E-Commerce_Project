@@ -21,12 +21,14 @@ namespace Business.Concrete
 
         public void Add(Category category)
         {
-            throw new NotImplementedException();
+            query = "insert into public.categories(category_name) values ('" + category.CategoryName + "')";
+            _categoryDal.Add(query);
         }
 
         public void Delete(Category category)
         {
-            throw new NotImplementedException();
+            query = @"delete from public.categories where category_id=" + category.CategoryId ;
+            _categoryDal.Delete(query);
         }
 
         public List<Category> List()
@@ -51,7 +53,8 @@ namespace Business.Concrete
 
         public void Update(Category category)
         {
-            throw new NotImplementedException();
+            query = @"update public.categories set category_name='" + category.CategoryName + "' where category_id=" + category.CategoryId ;
+            _categoryDal.Update(query);
         }
     }
 }

@@ -21,12 +21,21 @@ namespace Business.Concrete
         }
         public void Add(Product product)
         {
-            throw new NotImplementedException();
+            query = "insert into public.products(product_name,category_id,color_id,brand_id,product_price,description,stock_quantity) values ('" + product.ProductName + "," +
+                product.CategoryId +
+                "," + product.ColorId +
+                "," + product.BrandId +
+                "," + product.ProductPrice +
+                ",'" + product.Description +
+                "'," + product.StockQuantity;
+               
+            _productDal.Add(query);
         }
 
         public void Delete(Product product)
         {
-            throw new NotImplementedException();
+            query = @"delete from public.products where product_id=" +product.ProductId; 
+            _productDal.Delete(query);
         }
 
         public List<Product> List()
@@ -58,7 +67,14 @@ namespace Business.Concrete
 
         public void Update(Product product)
         {
-            throw new NotImplementedException();
+            query = @"update public.products set product_name='" + product.ProductName+ "' and category_id="+product.CategoryId+
+                "and color_id="+product.ColorId+
+                "and brand_id="+product.BrandId+
+                "and stock_quantity="+product.StockQuantity+
+                "and product_price="+product.ProductPrice+
+                "and description='"+product.Description+
+                "'where product_id=" + product.ProductId;
+            _productDal.Update(query);
         }
     }
 

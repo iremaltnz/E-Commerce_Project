@@ -13,11 +13,39 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            BrandList();
-            ColorList();
-            ProductList();
-            CategoryList();
+            //BrandList();
+            //ColorList();
+            //ProductList();
+            //CategoryList();
+            //CategoryAdd();
 
+            //  CategoryUpdate();
+            //CategoryDelete();
+        }
+
+        private static void CategoryDelete()
+        {
+            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+            Category category = new Category();
+            category.CategoryId = 6;
+            categoryManager.Delete(category);
+        }
+
+        private static void CategoryUpdate()
+        {
+            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+            Category category = new Category();
+            category.CategoryId = 6;
+            category.CategoryName = "deneme";
+            categoryManager.Add(category);
+        }
+
+        private static void CategoryAdd()
+        {
+            CategoryManager category = new CategoryManager(new NSCategoryDal());
+            Category category1 = new Category();
+            category1.CategoryName = "deneme22";
+            category.Add(category1);
         }
 
         private static void BrandList()
