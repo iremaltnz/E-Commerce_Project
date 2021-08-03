@@ -14,48 +14,7 @@ namespace ConsoleUI
        
         static void Main(string[] args)
         {
-
-            //CategoryAdd();
-
-            //  CategoryUpdate();
-            //CategoryDelete();
-
-            //ProductAdd();
-            // ProductDelete();
-            //ColorUpdate();
-
-            // ColorDelete();
-
-            //   BrandDelete();
-
-            //ProductManager productManager = new ProductManager(new NSProductDal());
-            //Product product = new Product();
-            //product.ProductId = 10;
-            //product.BrandId = 1;
-            //product.ColorId = 1;
-            //product.CategoryId = 1;
-            //product.ProductPrice = 10;
-            //product.StockQuantity = 2;
-            //product.Description = "deneme";
-            //product.ProductName = "denemee2";
-            //productManager.Update(product);
-
-            ProductManager productManager = new ProductManager(new NSProductDal());
-
-            ColorManager colorManager = new ColorManager(new NSColorDal());
-            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
-
-            Brand brand = new Brand();
-            //  ProductList();
-            // ColorList();
-
-            // BrandList();
-            //CategoryList();
-
-            //BrandAdd(brand);
-
-            // BrandUpdate(brand);
-           //BrandDelete(brand);
+            
         }
 
         private static void BrandDelete(Brand brand)
