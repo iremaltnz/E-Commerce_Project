@@ -14,91 +14,81 @@ namespace ConsoleUI
        
         static void Main(string[] args)
         {
-
+            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+            BrandManager brandManager = new BrandManager(new NSBrandDal());
+            ColorManager colorManager = new ColorManager(new NSColorDal());
+            ProductManager productManager = new ProductManager(new NSProductDal());
 
             Brand brand = new Brand();
             Product product = new Product();
             Color color = new Color();
             Category category = new Category();
-   
 
+            color.color_id = 8;
+            color.color_name = "deneme2";
+            ColorDelete(color,colorManager);
         }
-        private static void CategoryUpdate(Category category)
-        {
-            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+        private static void CategoryUpdate(Category category, CategoryManager categoryManager)
+        { 
             categoryManager.Update(category);
         }
-        private static void CategoryDelete(Category category)
-        {
-            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+        private static void CategoryDelete(Category category, CategoryManager categoryManager)
+        { 
             categoryManager.Delete(category);
         }
 
-        private static void CategoryAdd(Category category)
-        {
-            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+        private static void CategoryAdd(Category category, CategoryManager categoryManager)
+        {  
             categoryManager.Add(category);
         }
-        private static void ColorUpdatee(Color color)
+        private static void ColorUpdate(Color color, ColorManager colorManager)
         {
-            ColorManager colorManager = new ColorManager(new NSColorDal());
+           
             colorManager.Update(color);
         }
-        private static void ColorDelete(Color color)
+        private static void ColorDelete(Color color, ColorManager colorManager)
         {
-            ColorManager colorManager = new ColorManager(new NSColorDal());
             colorManager.Delete(color);
         }
 
-        private static void ColorAdd(Color color)
+        private static void ColorAdd(Color color, ColorManager colorManager)
         {
-            ColorManager colorManager = new ColorManager(new NSColorDal());
             colorManager.Add(color);
         }
 
-        private static void ProductDelete(Product product)
+        private static void ProductDelete(Product product, ProductManager productManager)
         {
-            ProductManager productManager = new ProductManager(new NSProductDal());
-
             productManager.Delete(product);
         }
 
-        private static void ProductUpdate(Product product)
+        private static void ProductUpdate(Product product, ProductManager productManager)
         {
-            ProductManager productManager = new ProductManager(new NSProductDal());
-
             productManager.Update(product);
         }
 
-        private static void ProductAdd(Product product)
+        private static void ProductAdd(Product product, ProductManager productManager)
         {
-            ProductManager productManager = new ProductManager(new NSProductDal());
-
             productManager.Add(product);
 
         }
 
-        private static void BrandDelete(Brand brand)
+        private static void BrandDelete(Brand brand, BrandManager brandManager)
         {
-            BrandManager brandManager = new BrandManager(new NSBrandDal());
             brandManager.Delete(brand);
         }
 
-        private static void BrandUpdate(Brand brand)
+        private static void BrandUpdate(Brand brand, BrandManager brandManager)
         {
-            BrandManager brandManager = new BrandManager(new NSBrandDal());
             brandManager.Update(brand);
         }
 
-        private static void BrandAdd(Brand brand)
+        private static void BrandAdd(Brand brand, BrandManager brandManager)
         {
-            BrandManager brandManager = new BrandManager(new NSBrandDal());
             brandManager.Add(brand);
         }
 
-        private static void CategoryList()
+        private static void CategoryList(CategoryManager categoryManager)
         {
-            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
             List<Category> categories = new List<Category>();
             categories = categoryManager.List();
 
@@ -108,9 +98,8 @@ namespace ConsoleUI
             }
         }
 
-        private static void BrandList()
+        private static void BrandList(BrandManager brandManager)
         {
-            BrandManager brandManager = new BrandManager(new NSBrandDal());
             List<Brand> brands = new List<Brand>();
             brands = brandManager.List();
 
@@ -120,9 +109,8 @@ namespace ConsoleUI
             }
         }
 
-        private static void ColorList()
+        private static void ColorList(ColorManager colorManager)
         {
-            ColorManager colorManager = new ColorManager(new NSColorDal());
             List<Color> colors = new List<Color>();
             colors = colorManager.List();
 
@@ -132,9 +120,9 @@ namespace ConsoleUI
             }
         }
 
-        private static void ProductList()
+        private static void ProductList(ProductManager productManager)
         {
-            ProductManager productManager = new ProductManager(new NSProductDal());
+            
             List<Product> products = new List<Product>();
             products = productManager.List();
 
