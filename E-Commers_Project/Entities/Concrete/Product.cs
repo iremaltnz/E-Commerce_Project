@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Entities.Concrete
 {
     public class Product : IEntity
     {
-        public int ProductId { get; set; }
-        public int CategoryId { get; set; }
-        public int ColorId { get; set; }
-        public int BrandId { get; set; }
-        public string ProductName { get; set; }
-        public int ProductPrice { get; set; }
-        public string Description { get; set; }
-        public int StockQuantity { get; set; }
+        [Key]
+        public int product_id { get; set; }
+        public int category_id { get; set; }
+        public int color_id { get; set; }
+        public int brand_id { get; set; }
+        public string product_name { get; set; }
+        public int product_price { get; set; }
+        public string description { get; set; }
+        public int stock_quantity { get; set; }
     }
 }

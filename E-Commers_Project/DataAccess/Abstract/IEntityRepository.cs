@@ -1,16 +1,17 @@
-﻿using System;
+﻿using Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Text;
 
 namespace DataAccess.Abstract
 {
-   public interface IEntityRepository
+   public interface IEntityRepository<TEntity>
     {
-        DataSet List(string query);
+        List<TEntity> List();
 
-        void Add(string query);
-        void Delete(string query);
-        void Update(string query);
+        void Add(TEntity entity);
+        void Delete(TEntity entity);
+        void Update(TEntity entity);
     }
 }
