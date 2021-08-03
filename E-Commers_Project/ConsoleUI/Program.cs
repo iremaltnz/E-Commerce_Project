@@ -20,8 +20,7 @@ namespace ConsoleUI
             Product product = new Product();
             Color color = new Color();
             Category category = new Category();
-
-           
+   
 
         }
         private static void CategoryUpdate(Category category)
@@ -76,6 +75,7 @@ namespace ConsoleUI
             ProductManager productManager = new ProductManager(new NSProductDal());
 
             productManager.Add(product);
+
         }
 
         private static void BrandDelete(Brand brand)
