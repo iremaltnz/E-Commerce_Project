@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Entities.Concrete
 {
     public class Brand : IEntity
     {
-        public int BrandId { get; set; }
-        public string BrandName { get; set; }
+        [Key]
+        public int brand_id { get; set; }
+        public string brand_name { get; set; }
     }
 }

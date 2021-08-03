@@ -11,104 +11,206 @@ namespace ConsoleUI
 {
     class Program
     {
+       
         static void Main(string[] args)
         {
-            //BrandList();
-            //ColorList();
-            //ProductList();
-            //CategoryList();
+
             //CategoryAdd();
 
             //  CategoryUpdate();
             //CategoryDelete();
+
+            //ProductAdd();
+            // ProductDelete();
+            //ColorUpdate();
+
+            // ColorDelete();
+
+            //   BrandDelete();
+
+            //ProductManager productManager = new ProductManager(new NSProductDal());
+            //Product product = new Product();
+            //product.ProductId = 10;
+            //product.BrandId = 1;
+            //product.ColorId = 1;
+            //product.CategoryId = 1;
+            //product.ProductPrice = 10;
+            //product.StockQuantity = 2;
+            //product.Description = "deneme";
+            //product.ProductName = "denemee2";
+            //productManager.Update(product);
+
+            ProductManager productManager = new ProductManager(new NSProductDal());
+
+            ColorManager colorManager = new ColorManager(new NSColorDal());
+            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+
+            Brand brand = new Brand();
+            //  ProductList();
+            // ColorList();
+
+            // BrandList();
+            //CategoryList();
+
+            //BrandAdd(brand);
+
+            // BrandUpdate(brand);
+           //BrandDelete(brand);
         }
 
-        private static void CategoryDelete()
+        private static void BrandDelete(Brand brand)
+        {
+            BrandManager brandManager = new BrandManager(new NSBrandDal());
+            brandManager.Delete(brand);
+        }
+
+        private static void BrandUpdate(Brand brand)
+        {
+            BrandManager brandManager = new BrandManager(new NSBrandDal());
+            brandManager.Update(brand);
+        }
+
+        private static void BrandAdd(Brand brand)
+        {
+            BrandManager brandManager = new BrandManager(new NSBrandDal());
+            brandManager.Add(brand);
+        }
+
+        private static void CategoryList()
         {
             CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
-            Category category = new Category();
-            category.CategoryId = 6;
-            categoryManager.Delete(category);
-        }
+            List<Category> categories = new List<Category>();
+            categories = categoryManager.List();
 
-        private static void CategoryUpdate()
-        {
-            CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
-            Category category = new Category();
-            category.CategoryId = 6;
-            category.CategoryName = "deneme";
-            categoryManager.Add(category);
-        }
-
-        private static void CategoryAdd()
-        {
-            CategoryManager category = new CategoryManager(new NSCategoryDal());
-            Category category1 = new Category();
-            category1.CategoryName = "deneme22";
-            category.Add(category1);
+            foreach (var c in categories)
+            {
+                Console.WriteLine(c.category_name);
+            }
         }
 
         private static void BrandList()
         {
             BrandManager brandManager = new BrandManager(new NSBrandDal());
             List<Brand> brands = new List<Brand>();
-
             brands = brandManager.List();
+
             foreach (var b in brands)
             {
-                Console.WriteLine(b.BrandName);
+                Console.WriteLine(b.brand_name);
             }
-
-            Console.WriteLine("-----------");
-
         }
-        private static void CategoryList()
-        {
 
-            CategoryManager category = new CategoryManager(new NSCategoryDal());
-            List<Category> categories = new List<Category>();
-
-            categories = category.List();
-            foreach (var c in categories)
-            {
-                Console.WriteLine(c.CategoryName);
-            }
-
-            Console.WriteLine("-----------");
-    }
         private static void ColorList()
         {
-
             ColorManager colorManager = new ColorManager(new NSColorDal());
             List<Color> colors = new List<Color>();
-
             colors = colorManager.List();
+
             foreach (var c in colors)
             {
-                Console.WriteLine(c.ColorName);
+                Console.WriteLine(c.color_name);
             }
-
-            Console.WriteLine("-----------");
         }
 
         private static void ProductList()
         {
-
             ProductManager productManager = new ProductManager(new NSProductDal());
             List<Product> products = new List<Product>();
-
             products = productManager.List();
+
             foreach (var p in products)
             {
-                Console.WriteLine(p.ProductName);
+                Console.WriteLine(p.product_name);
             }
-
-            Console.WriteLine("-----------");
         }
 
-            
+        //    private static void BrandDelete()
+        //    {
+        //        BrandManager brandManager = new BrandManager(new NSBrandDal());
+        //        Brand brand = new Brand();
+        //        brand.BrandId = 10;
+        //        brand.BrandName = "adidas";
+        //        brandManager.Delete(brand);
+        //    }
 
-        }
+        //    private static void ColorDelete()
+        //    {
+        //        ColorManager colorManager = new ColorManager(new NSColorDal());
+        //        Color color = new Color();
+        //        color.ColorId = 4;
+        //        color.ColorName = "mavi";
+        //        colorManager.Delete(color);
+        //    }
+
+        //    private static void ColorUpdate()
+        //    {
+        //        ColorManager colorManager = new ColorManager(new NSColorDal());
+        //        Color color = new Color();
+        //        color.ColorId = 4;
+        //        color.ColorName = "mavi";
+        //        colorManager.Update(color);
+        //    }
+
+        //    private static void ProductDelete()
+        //    {
+        //        ProductManager productManager = new ProductManager(new NSProductDal());
+        //        Product product = new Product();
+        //        product.ProductId = 11;
+        //        product.BrandId = 1;
+        //        product.ColorId = 1;
+        //        product.CategoryId = 1;
+        //        product.ProductPrice = 10;
+        //        product.StockQuantity = 2;
+        //        product.Description = "deneme";
+        //        product.ProductName = "denemee2";
+        //        productManager.Delete(product);
+        //    }
+
+        //    private static void ProductAdd()
+        //    {
+        //        ProductManager productManager = new ProductManager(new NSProductDal());
+        //        Product product = new Product(); 
+
+        //        product.BrandId = 1;
+        //        product.ColorId = 1;
+        //        product.CategoryId = 1;
+        //        product.ProductPrice = 10;
+        //        product.StockQuantity = 2;
+        //        product.Description = "deneme";
+        //        product.ProductName = "denemee";
+        //        productManager.Add(product);
+        //    }
+
+        //    private static void CategoryDelete()
+        //    {
+        //        CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+        //        Category category = new Category();
+        //        category.CategoryId = 6;
+        //        categoryManager.Delete(category);
+        //    }
+
+        //    private static void CategoryUpdate()
+        //    {
+        //        CategoryManager categoryManager = new CategoryManager(new NSCategoryDal());
+        //        Category category = new Category();
+        //        category.CategoryId = 6;
+        //        category.CategoryName = "deneme";
+        //        categoryManager.Add(category);
+        //    }
+
+        //    private static void CategoryAdd()
+        //    {
+        //        CategoryManager category = new CategoryManager(new NSCategoryDal());
+        //        Category category1 = new Category();
+        //        category1.CategoryName = "deneme22";
+        //        category.Add(category1);
+        //    }
+
+ 
+
+
+
+    }
 
        
 

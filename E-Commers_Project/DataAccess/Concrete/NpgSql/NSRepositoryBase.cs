@@ -1,54 +1,60 @@
 ﻿using DataAccess.Abstract;
+using Entities.Concrete;
+using Microsoft.EntityFrameworkCore;
 using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Text;
 
 namespace DataAccess.Concrete.NpgSql
 {
-    public class NSRepositoryBase : IEntityRepository
+    public class NSRepositoryBase<TEntity> : IEntityRepository<TEntity>
+        where TEntity:class,IEntity,new()
     {
-        NpgsqlConnection npgsql= new NpgsqlConnection(@"Server=chunee.db.elephantsql.com;Port=5432;User Id=lnimvljt;Password=YXkBhzMdvSpezCyfWKKcZyqOhKWy7-Iz;Database=lnimvljt");
-        public void Add(string query)
-        {
-           
-            NpgsqlCommand cmd = new NpgsqlCommand(query, npgsql);
-            npgsql.Open();
+        
+        public void Add(TEntity entity)
+        { 
 
-           int x= cmd.ExecuteNonQuery();
+            using (Context context = new Context())
+            {
+                var addEntity = context.Entry(entity);
+                addEntity.State = EntityState.Added;
+                context.SaveChanges();
 
-            npgsql.Close();
+            }
         }
 
-        public void Delete(string query)
+        public void Delete(TEntity entity)
         {
 
-            npgsql.Open();
-            NpgsqlCommand npgsqlCommand = new NpgsqlCommand(query, npgsql);
-            npgsqlCommand.ExecuteNonQuery();
-            npgsql.Close();
+            using (Context context = new Context())
+            {
+                var deletedEntity = context.Entry(entity);
+                deletedEntity.State = EntityState.Deleted;
+                context.SaveChanges();
+
+            }
         }
 
-        public DataSet List(string query)
+        public List<TEntity> List()
         {
-            npgsql.Open();
-
-            DataSet dataSet = new DataSet();
-
-            NpgsqlDataAdapter npgsqlDataAdapter = new NpgsqlDataAdapter(query, npgsql);
-            npgsqlDataAdapter.Fill(dataSet);
-
-            npgsql.Close();
-            return dataSet;
+            using (Context context = new Context())
+            {
+                return context.Set<TEntity>().ToList();
+            }
         }
 
-        public void Update(string query)
+        public void Update(TEntity entity)
         {
-            npgsql.Open();
-            NpgsqlCommand npgsqlCommandUpdt = new NpgsqlCommand(query, npgsql);
-            npgsqlCommandUpdt.ExecuteNonQuery();
-            npgsql.Close();
+            using (Context context = new Context())
+            {
+                var updatedEntity = context.Entry(entity);
+                updatedEntity.State = EntityState.Modified;
+                context.SaveChanges();
+
+            }
         }
     }
 }
