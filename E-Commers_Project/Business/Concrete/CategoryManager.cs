@@ -19,9 +19,13 @@ namespace Business.Concrete
         {
             _categoryDal = categoryDal;
         }
-
+        
         public IResult Add(Category category)
         {
+            if (category.category_name == "deneme")
+            {
+                return new ErrorResult(Messages.errorAdded);
+            }
             _categoryDal.Add(category);
             return new SuccessResult(Messages.successAdded);
         }
@@ -35,7 +39,7 @@ namespace Business.Concrete
         public IDataResult<List<Category>> List()
         {
 
-            return new SuccessDataResult<List<Category>>(Messages.successListed);
+            return new SuccessDataResult<List<Category>>(_categoryDal.List(), Messages.successListed);
         }
 
         public IResult Update(Category category)

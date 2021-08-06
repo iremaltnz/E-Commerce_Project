@@ -35,7 +35,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Product>> List()
         {
-            return new SuccessDataResult<List<Product>>(Messages.successListed);
+            return new SuccessDataResult<List<Product>>(_productDal.List(), Messages.successListed);
         }
 
         public IResult Update(Product product)

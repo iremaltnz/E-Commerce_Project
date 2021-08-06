@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "iU/MRr1fjkUdXDnX6eumyxGMWGKSoxxumc229dTYvxT6CrWrck1hcbPIDIqBrwTq8Yz8Ugw/RbzuxRv7P2ZEbA==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\CASPER\\Desktop\\E-Commers_Project\\E-Commers_Project\\WebAPI\\WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.11\\microsoft.entityframeworkcore.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.11\\microsoft.entityframeworkcore.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.11\\microsoft.entityframeworkcore.analyzers.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.11\\microsoft.entityframeworkcore.relational.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.11\\microsoft.extensions.caching.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.11\\microsoft.extensions.caching.memory.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.11\\microsoft.extensions.configuration.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.11\\microsoft.extensions.configuration.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.11\\microsoft.extensions.configuration.binder.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.11\\microsoft.extensions.dependencyinjection.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.11\\microsoft.extensions.dependencyinjection.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.logging\\3.1.11\\microsoft.extensions.logging.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.11\\microsoft.extensions.logging.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.options\\3.1.11\\microsoft.extensions.options.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.11\\microsoft.extensions.primitives.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\npgsql\\5.0.7\\npgsql.5.0.7.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\3.1.11\\npgsql.entityframeworkcore.postgresql.3.1.11.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\CASPER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
