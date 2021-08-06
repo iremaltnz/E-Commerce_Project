@@ -10,9 +10,6 @@ namespace Business.Utilities.Results
         {
 
         }
-        public ErrorDataResult(string message) : base(default, false, message)
-        {
-
-        }
+      
     }
 }

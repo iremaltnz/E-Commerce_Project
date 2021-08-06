@@ -33,7 +33,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Brand>> List()
         {
-            return new SuccessDataResult<List<Brand>>(Messages.successListed);
+            return new SuccessDataResult<List<Brand>>(_brandDal.List(), Messages.successListed);
         }
 
         public IResult Update(Brand brand)

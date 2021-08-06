@@ -33,7 +33,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Color>> List()
         {
-            return new SuccessDataResult<List<Color>>(Messages.successListed);
+            return new SuccessDataResult<List<Color>>(_colorDal.List(), Messages.successListed);
         }
 
         public IResult Update(Color color)

@@ -10,9 +10,7 @@ namespace Business.Utilities.Results
         {
 
         }
-        public SuccessDataResult(string message) : base(default, true, message)
-        {
-
-        }
+      
+     
     }
 }
