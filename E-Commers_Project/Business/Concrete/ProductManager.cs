@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Business.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -19,25 +21,27 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-        public void Add(Product product)
+        public IResult Add(Product product)
         {
             _productDal.Add(product);
+            return new SuccessResult(Messages.successAdded);
         }
 
-        public void Delete(Product product)
+        public IResult Delete(Product product)
         {
              _productDal.Delete(product);
+            return new SuccessResult(Messages.successDeleted);
         }
 
-        public List<Product> List()
+        public IDataResult<List<Product>> List()
         {
-            
-            return _productDal.List();
+            return new SuccessDataResult<List<Product>>(Messages.successListed);
         }
 
-        public void Update(Product product)
+        public IResult Update(Product product)
         {
             _productDal.Update(product);
+            return new SuccessResult(Messages.successUpdated);
         }
     }
 
