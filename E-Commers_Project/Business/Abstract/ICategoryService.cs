@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Business.Utilities.Results;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,9 +8,9 @@ namespace Business.Abstract
 {
     public interface ICategoryService
     {
-        List<Category> List();
-        void Add(Category category);
-        void Delete(Category category);
-        void Update(Category category);
+        IDataResult<List<Category>> List();
+        IResult Add(Category category);
+        IResult Delete(Category category);
+        IResult Update(Category category);
     }
 }
