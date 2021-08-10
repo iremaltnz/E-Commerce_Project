@@ -19,24 +19,24 @@ namespace Business.Concrete
         {
             _colorDal = colorDal;
         }
-        public IResult Add(Color color)
+        public IResult ColorAdd(Color color)
         {
             _colorDal.Add(color);
             return new SuccessResult(Messages.successAdded);
         }
 
-        public IResult Delete(Color color)
+        public IResult ColorDelete(Color color)
         {
             _colorDal.Delete(color);
             return new SuccessResult(Messages.successDeleted);
         }
 
-        public IDataResult<List<Color>> List()
+        public IDataResult<List<Color>> ColorList()
         {
             return new SuccessDataResult<List<Color>>(_colorDal.List(), Messages.successListed);
         }
 
-        public IResult Update(Color color)
+        public IResult ColorUpdate(Color color)
         {
             _colorDal.Update(color);
             return new SuccessResult(Messages.successUpdated);

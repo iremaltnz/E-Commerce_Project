@@ -14,27 +14,28 @@ namespace UnitTest
         [Test]
         public void BrandList()
         {
-            var result = brandManager.List();
+            var result = brandManager.BrandList();
             Assert.AreEqual(result.Success, true, "Markalar Listelenemedi");
         }
 
         [Test]
         public void BrandAdd()
         {
-            var result = brandManager.Add(brand);
+            var result = brandManager.BrandAdd(brand);
             Assert.AreEqual(result.Success, true, "Markalar Eklenemedi");
         }
         [Test]
         public void BrandUpdate()
         {
-            var result = brandManager.Update(brand);
+            var result = brandManager.BrandUpdate(brand);
             Assert.AreEqual(result.Success, true, "Markalar Güncellenemedi");
         }
-        [Test]
+
         /*
+        [Test]
         public void BrandDelete()
         {
-            var result = brandManager.Delete(brand);
+            var result = brandManager.BrandDelete(brand);
             Assert.AreEqual(result.Success, true, "Markalar Silinemedi");
         }
         */

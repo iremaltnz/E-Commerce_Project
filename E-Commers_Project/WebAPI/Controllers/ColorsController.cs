@@ -24,7 +24,7 @@ namespace WebAPI.Controllers
         public IActionResult Get()
         {
 
-            var result = _colorService.List();
+            var result = _colorService.ColorList();
             if (result.Success)
             {
                 return Ok(result);
@@ -35,7 +35,7 @@ namespace WebAPI.Controllers
         [HttpPost("add")]
         public IActionResult Add(Color color)
         {
-            var result = _colorService.Add(color);
+            var result = _colorService.ColorAdd(color);
             if (result.Success)
             {
                 return Ok(result);
@@ -49,7 +49,7 @@ namespace WebAPI.Controllers
         [HttpPost("delete")]
         public IActionResult Delete(Color color)
         {
-            var result = _colorService.Delete(color);
+            var result = _colorService.ColorDelete(color);
             if (result.Success)
             {
                 return Ok(result);
@@ -62,7 +62,7 @@ namespace WebAPI.Controllers
         [HttpPost("update")]
         public IActionResult Update(Color color)
         {
-            var result = _colorService.Update(color);
+            var result = _colorService.ColorUpdate(color);
             if (result.Success)
             {
                 return Ok(result);

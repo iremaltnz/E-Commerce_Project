@@ -18,7 +18,7 @@ namespace UnitTest
         public void CategoryList()
         {
 
-            var result = categoryManager.List();
+            var result = categoryManager.CategoryList();
             Assert.AreEqual(result.Success, true, "Kategoriler listelenemedi");
         }
 
@@ -27,7 +27,7 @@ namespace UnitTest
         public void CategoryAdd()
         {
            
-            var result = categoryManager.Add(category);
+            var result = categoryManager.CategoryAdd(category);
             Assert.AreEqual(result.Success, true, result.Message);
         }
 
@@ -36,17 +36,17 @@ namespace UnitTest
         {
             category.category_id = 6;
             category.category_name = "Yazıcı";
-            var result = categoryManager.Update(category);
+            var result = categoryManager.CategoryUpdate(category);
             Assert.AreEqual(result.Success, true, result.Message);
         }
 
-/*
-        [Test]
-        public void CategoryDelete()
-        {
+        /*
+                [Test]
+                public void CategoryDelete()
+                {
 
-            var result = categoryManager.Delete(category);
-            Assert.AreEqual(result.Success, true, result.Message);
-        }*/
+                    var result = categoryManager.CategoryDelete(category);
+                    Assert.AreEqual(result.Success, true, result.Message);
+                }*/
     }
 }

@@ -24,7 +24,7 @@ namespace WebAPI.Controllers
         public IActionResult List()
         {
             
-            var result = _productService.List();
+            var result = _productService.ProductList();
             if (result.Success)
             {
                 return Ok(result);
@@ -35,7 +35,7 @@ namespace WebAPI.Controllers
         [HttpPost("add")]
         public IActionResult Add(Product product)
         {
-            var result = _productService.Add(product);
+            var result = _productService.ProductAdd(product);
             if (result.Success)
             {
                 return Ok(result);
@@ -49,7 +49,7 @@ namespace WebAPI.Controllers
         [HttpPost("delete")]
         public IActionResult Delete(Product product)
         {
-            var result = _productService.Delete(product);
+            var result = _productService.ProductDelete(product);
             if (result.Success)
             {
                 return Ok(result);
@@ -62,7 +62,7 @@ namespace WebAPI.Controllers
         [HttpPost("update")]
         public IActionResult Update(Product product)
         {
-            var result = _productService.Update(product);
+            var result = _productService.ProductUpdate(product);
             if (result.Success)
             {
                 return Ok(result);
