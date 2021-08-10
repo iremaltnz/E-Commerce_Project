@@ -13,9 +13,7 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         IProductDal _productDal;
-        DataSet dataSet;
-        string query;
-     
+        
 
         public ProductManager(IProductDal productDal)
         {
