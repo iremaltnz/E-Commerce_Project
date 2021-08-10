@@ -21,7 +21,7 @@ namespace Business.Concrete
             _categoryDal = categoryDal;
         }
         
-        public IResult Add(Category category)
+        public IResult CategoryAdd(Category category)
         {
             if (category.category_name == "deneme")
             {
@@ -31,20 +31,22 @@ namespace Business.Concrete
             return new SuccessResult(Messages.successAdded);
         }
 
-        public IResult Delete(Category category)
+        public IResult CategoryDelete(Category category)
         {
             _categoryDal.Delete(category);
             return new SuccessResult(Messages.successDeleted);
         }
 
+
         [TimeLoggerAspect]
         public IDataResult<List<Category>> List()
+
         {
 
             return new SuccessDataResult<List<Category>>(_categoryDal.List(), Messages.successListed);
         }
 
-        public IResult Update(Category category)
+        public IResult CategoryUpdate(Category category)
         {
             _categoryDal.Update(category);
             return new SuccessResult(Messages.successUpdated);

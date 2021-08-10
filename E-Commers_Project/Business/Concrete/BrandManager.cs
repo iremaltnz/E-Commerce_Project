@@ -19,24 +19,24 @@ namespace Business.Concrete
         {
             _brandDal = brandDal;
         }
-        public IResult Add(Brand brand)
+        public IResult BrandAdd(Brand brand)
         {
             _brandDal.Add(brand);
             return new SuccessResult(Messages.successAdded);
         }
 
-        public IResult Delete(Brand brand)
+        public IResult BrandDelete(Brand brand)
         {
             _brandDal.Delete(brand);
             return new SuccessResult(Messages.successDeleted);
         }
 
-        public IDataResult<List<Brand>> List()
+        public IDataResult<List<Brand>> BrandList()
         {
             return new SuccessDataResult<List<Brand>>(_brandDal.List(), Messages.successListed);
         }
 
-        public IResult Update(Brand brand)
+        public IResult BrandUpdate(Brand brand)
         {
             _brandDal.Update(brand);
             return new SuccessResult(Messages.successUpdated);

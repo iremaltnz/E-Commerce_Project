@@ -23,7 +23,7 @@ namespace UnitTest
         public void ProductList()
         {
           
-            var result = productManager.List();
+            var result = productManager.ProductList();
             Assert.AreEqual(result.Success,true,"Ürün listelenemedi");
         }
 
@@ -31,7 +31,7 @@ namespace UnitTest
         public void ProductAdd()
         {
 
-            var result = productManager.Add(product);
+            var result = productManager.ProductAdd(product);
             Assert.AreEqual(result.Success, true, "Ürün Ekleme Baþarýsýz");
         }
         [Test]
@@ -39,18 +39,18 @@ namespace UnitTest
         {
              product.product_id = 10;
             product.product_name = "Casper L20 64GB 10.1 FHD 4.5G Tablet";
-            var result = productManager.Update(product);
+            var result = productManager.ProductUpdate(product);
             Assert.AreEqual(result.Success, true, "Ürün Güncelleme Baþarýsýz");
         }
 
-      /*  [Test]
-        public void ProductDelete()
-        {
+        /*  [Test]
+          public void ProductDelete()
+          {
 
-            var result = productManager.Delete(product);
-            Assert.AreEqual(result.Success, true, "Ürün Silme Baþarýsýz");
-        }
-      */
-     
+              var result = productManager.ProductDelete(product);
+              Assert.AreEqual(result.Success, true, "Ürün Silme Baþarýsýz");
+          }
+        */
+
     }
 }

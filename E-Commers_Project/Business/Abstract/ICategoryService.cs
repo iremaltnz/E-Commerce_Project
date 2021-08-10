@@ -8,9 +8,9 @@ namespace Business.Abstract
 {
     public interface ICategoryService
     {
-        IDataResult<List<Category>> List();
-        IResult Add(Category category);
-        IResult Delete(Category category);
-        IResult Update(Category category);
+        IDataResult<List<Category>> CategoryList();
+        IResult CategoryAdd(Category category);
+        IResult CategoryDelete(Category category);
+        IResult CategoryUpdate(Category category);
     }
 }

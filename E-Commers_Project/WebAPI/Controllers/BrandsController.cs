@@ -22,7 +22,7 @@ namespace WebAPI.Controllers
         [HttpGet("list")]
         public IActionResult List()
         {
-            var result = _brandService.List();
+            var result = _brandService.BrandList();
             if (result.Success)
             {
                 return Ok(result);
@@ -34,7 +34,7 @@ namespace WebAPI.Controllers
         [HttpPost("add")]
         public IActionResult Add(Brand brand)
         {
-            var result = _brandService.Add(brand);
+            var result = _brandService.BrandAdd(brand);
             if (result.Success)
             {
                 return Ok(result);
@@ -46,7 +46,7 @@ namespace WebAPI.Controllers
         [HttpPost("delete")]
         public IActionResult Delete(Brand brand)
         {
-            var result = _brandService.Delete(brand);
+            var result = _brandService.BrandDelete(brand);
             if (result.Success)
             {
                 return Ok(result);
@@ -57,7 +57,7 @@ namespace WebAPI.Controllers
         [HttpPost("update")]
         public IActionResult Update(Brand brand)
         {
-            var result = _brandService.Update(brand);
+            var result = _brandService.BrandUpdate(brand);
             if (result.Success)
             {
                 return Ok(result);

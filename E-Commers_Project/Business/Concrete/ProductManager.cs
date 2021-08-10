@@ -21,24 +21,24 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-        public IResult Add(Product product)
+        public IResult ProductAdd(Product product)
         {
             _productDal.Add(product);
             return new SuccessResult(Messages.successAdded);
         }
 
-        public IResult Delete(Product product)
+        public IResult ProductDelete(Product product)
         {
              _productDal.Delete(product);
             return new SuccessResult(Messages.successDeleted);
         }
 
-        public IDataResult<List<Product>> List()
+        public IDataResult<List<Product>> ProductList()
         {
             return new SuccessDataResult<List<Product>>(_productDal.List(), Messages.successListed);
         }
 
-        public IResult Update(Product product)
+        public IResult ProductUpdate(Product product)
         {
             _productDal.Update(product);
             return new SuccessResult(Messages.successUpdated);

@@ -14,31 +14,32 @@ namespace UnitTest
         [Test]
         public void ColorList()
         {
-            var result = colorManager.List();
+            var result = colorManager.ColorList();
             Assert.AreEqual(result.Success, true, "Renkler Listelenemedi");
         }
 
         [Test]
         public void ColorAdd()
         {
-            var result = colorManager.Add(color);
+            var result = colorManager.ColorAdd(color);
             Assert.AreEqual(result.Success, true, "Renkler Eklenemedi");
         }
         [Test]
         public void ColorUpdate()
         {
-            var result = colorManager.Update(color);
+            var result = colorManager.ColorUpdate(color);
             Assert.AreEqual(result.Success, true, "Renkler Güncellenemedi");
         }
-        [Test]
+
         /*
+        [Test]
         public void ColorDelete()
         {
-            var result = colorManager.Delete(color);
+            var result = colorManager.ColorDelete(color);
             Assert.AreEqual(result.Success, true, "Renkler Silinemedi");
         }
         */
 
-      
+
     }
 }

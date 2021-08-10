@@ -24,7 +24,7 @@ namespace WebAPI.Controllers
         public IActionResult Get()
         {
 
-            var result = _categoryService.List();
+            var result = _categoryService.CategoryList();
             if (result.Success)
             {
                 return Ok(result);
@@ -35,7 +35,7 @@ namespace WebAPI.Controllers
         [HttpPost("add")]
         public IActionResult Add(Category category)
         {
-            var result = _categoryService.Add(category);
+            var result = _categoryService.CategoryAdd(category);
             if (result.Success)
             {
                 return Ok(result);
@@ -49,7 +49,7 @@ namespace WebAPI.Controllers
         [HttpPost("delete")]
         public IActionResult Delete(Category category)
         {
-            var result = _categoryService.Delete(category);
+            var result = _categoryService.CategoryDelete(category);
             if (result.Success)
             {
                 return Ok(result);
@@ -62,7 +62,7 @@ namespace WebAPI.Controllers
         [HttpPost("update")]
         public IActionResult Update(Category category)
         {
-            var result = _categoryService.Update(category);
+            var result = _categoryService.CategoryUpdate(category);
             if (result.Success)
             {
                 return Ok(result);
