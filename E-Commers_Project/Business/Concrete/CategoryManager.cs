@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.Aspects.Perfomance;
 using Business.Constants;
 using Business.Utilities.Results;
 using DataAccess;
@@ -36,6 +37,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.successDeleted);
         }
 
+        [TimeLoggerAspect]
         public IDataResult<List<Category>> List()
         {
 
