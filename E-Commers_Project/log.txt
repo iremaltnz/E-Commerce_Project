@@ -1,10 +1,12 @@
+Metot İsmi : ColorList
+Çalışma Süresi : 2,4157488 sn
+Loglama Tarihi : 11.08.2021 01:20:18
 
+Metot İsmi : BrandList
+Çalışma Süresi : 0,1790635 sn
+Loglama Tarihi : 11.08.2021 01:20:21
 
-Metot İsmi : List
-Çalışma Süresi : 2,9483703 sn
-Loglama Tarihi : 10.08.2021 17:35:32
-
-Metot İsmi : List
-Çalışma Süresi : 2,9483703 sn
-Loglama Tarihi : 10.08.2021 17:35:32
+Metot İsmi : BrandList
+Çalışma Süresi : 0,1802959 sn
+Loglama Tarihi : 11.08.2021 01:20:21
 

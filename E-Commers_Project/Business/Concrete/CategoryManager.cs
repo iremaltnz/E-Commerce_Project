@@ -39,7 +39,7 @@ namespace Business.Concrete
 
 
         [TimeLoggerAspect]
-        public IDataResult<List<Category>> List()
+        public IDataResult<List<Category>> CategoryList()
 
         {
 

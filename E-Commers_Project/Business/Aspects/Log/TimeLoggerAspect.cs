@@ -40,6 +40,7 @@ namespace Business.Aspects.Perfomance
                 writer.WriteLine($"Çalışma Süresi : {_stopWatch.Elapsed.TotalSeconds} sn");
                 writer.WriteLine($"Loglama Tarihi : {DateTime.Now}");
                 writer.WriteLine();
+
             }
            
 
