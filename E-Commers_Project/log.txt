@@ -1,0 +1,9 @@
+
+Metot İsmi : List
+Çalışma Süresi : 2,5123604 sn
+Loglama Tarihi : 10.08.2021 17:19:51
+
+Metot İsmi : List
+Çalışma Süresi : 0,1965793 sn
+Loglama Tarihi : 10.08.2021 17:19:56
+
