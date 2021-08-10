@@ -31,17 +31,17 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSingleton<IProductService, ProductManager>();
-            services.AddSingleton<IProductDal, NSProductDal>();
+            //services.AddSingleton<IProductService, ProductManager>();
+            //services.AddSingleton<IProductDal, NSProductDal>();
 
-             services.AddSingleton<IColorService, ColorManager>();
-            services.AddSingleton<IColorDal, NSColorDal>();
+            // services.AddSingleton<IColorService, ColorManager>();
+            //services.AddSingleton<IColorDal, NSColorDal>();
 
-            services.AddSingleton<ICategoryService, CategoryManager>();
-            services.AddSingleton<ICategoryDal, NSCategoryDal>();
+            //services.AddSingleton<ICategoryService, CategoryManager>();
+            //services.AddSingleton<ICategoryDal, NSCategoryDal>();
 
-            services.AddSingleton<IBrandService, BrandManager>();
-            services.AddSingleton<IBrandDal, NSBrandDal>();
+            //services.AddSingleton<IBrandService, BrandManager>();
+            //services.AddSingleton<IBrandDal, NSBrandDal>();
 
         }
 
