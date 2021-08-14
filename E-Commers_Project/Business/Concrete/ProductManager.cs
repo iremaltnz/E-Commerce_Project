@@ -3,6 +3,7 @@ using Business.Constants;
 using Business.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -42,6 +43,11 @@ namespace Business.Concrete
         {
             _productDal.Update(product);
             return new SuccessResult(Messages.successUpdated);
+        }
+
+        public IDataResult<productDto> GetProductDetailsById(int productId)
+        {
+            return new SuccessDataResult<productDto>(_productDal.GetProductDetail(productId),Messages.successListed);
         }
     }
 
