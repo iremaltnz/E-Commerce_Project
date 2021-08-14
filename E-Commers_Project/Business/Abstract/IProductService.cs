@@ -1,5 +1,6 @@
 ﻿using Business.Utilities.Results;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,6 +14,6 @@ namespace Business.Abstract
         IResult ProductAdd(Product product);
         IResult ProductDelete(Product product);
         IResult ProductUpdate(Product product);
-
+        IDataResult<productDto> GetProductDetailsById(int productId);
     }
 }
