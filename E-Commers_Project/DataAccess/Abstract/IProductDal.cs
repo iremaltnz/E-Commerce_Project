@@ -10,6 +10,8 @@ namespace DataAccess.Abstract
     public interface IProductDal : IEntityRepository<Product>
     {
         productDto GetProductDetail(int productId);
-     
+        List<productDto> GetProductDetails(Expression<Func<productDto, bool>> filter = null);
+
+
     }
 }

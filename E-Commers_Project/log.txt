@@ -10,3 +10,1011 @@ Metot İsmi : BrandList
 Çalışma Süresi : 0,1802959 sn
 Loglama Tarihi : 11.08.2021 01:20:21
 
+Metot İsmi : ColorList
+Çalışma Süresi : 3,7973385 sn
+Loglama Tarihi : 11.08.2021 10:30:50
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,631819 sn
+Loglama Tarihi : 11.08.2021 10:41:13
+
+Metot İsmi : ColorList
+Çalışma Süresi : 0,2422151 sn
+Loglama Tarihi : 11.08.2021 10:41:30
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,5545613 sn
+Loglama Tarihi : 13.08.2021 20:23:31
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,7402188 sn
+Loglama Tarihi : 13.08.2021 20:23:53
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,9129345 sn
+Loglama Tarihi : 13.08.2021 20:24:06
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,0764897 sn
+Loglama Tarihi : 13.08.2021 20:24:32
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,2350684 sn
+Loglama Tarihi : 13.08.2021 20:25:06
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,395131 sn
+Loglama Tarihi : 13.08.2021 20:25:13
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,5464553 sn
+Loglama Tarihi : 13.08.2021 20:26:02
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,6971048 sn
+Loglama Tarihi : 13.08.2021 20:26:05
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,8489159 sn
+Loglama Tarihi : 13.08.2021 20:26:11
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,9987868 sn
+Loglama Tarihi : 13.08.2021 20:26:21
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,1476033 sn
+Loglama Tarihi : 13.08.2021 20:27:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,3022474 sn
+Loglama Tarihi : 13.08.2021 20:27:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,4507704 sn
+Loglama Tarihi : 13.08.2021 20:27:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,5987023 sn
+Loglama Tarihi : 13.08.2021 20:27:30
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,4488778 sn
+Loglama Tarihi : 13.08.2021 20:30:24
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,6532446 sn
+Loglama Tarihi : 13.08.2021 20:30:29
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,8161892 sn
+Loglama Tarihi : 13.08.2021 20:30:46
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,9716967 sn
+Loglama Tarihi : 13.08.2021 20:32:51
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,1289109 sn
+Loglama Tarihi : 13.08.2021 20:32:52
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,2834922 sn
+Loglama Tarihi : 13.08.2021 20:32:52
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,4337345 sn
+Loglama Tarihi : 13.08.2021 20:32:52
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,5866077 sn
+Loglama Tarihi : 13.08.2021 20:33:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,7372783 sn
+Loglama Tarihi : 13.08.2021 20:34:08
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,8891895 sn
+Loglama Tarihi : 13.08.2021 20:34:54
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,0392444 sn
+Loglama Tarihi : 13.08.2021 20:34:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,1869076 sn
+Loglama Tarihi : 13.08.2021 20:34:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,3353508 sn
+Loglama Tarihi : 13.08.2021 20:34:56
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,1154446 sn
+Loglama Tarihi : 13.08.2021 20:38:19
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,2698217 sn
+Loglama Tarihi : 13.08.2021 20:38:29
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,4246984 sn
+Loglama Tarihi : 13.08.2021 20:39:33
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,5779171 sn
+Loglama Tarihi : 13.08.2021 20:39:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,731672 sn
+Loglama Tarihi : 13.08.2021 20:39:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,8870606 sn
+Loglama Tarihi : 13.08.2021 20:39:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,0401984 sn
+Loglama Tarihi : 13.08.2021 20:39:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,1938436 sn
+Loglama Tarihi : 13.08.2021 20:39:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,2928181 sn
+Loglama Tarihi : 13.08.2021 20:44:42
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,550792 sn
+Loglama Tarihi : 13.08.2021 21:42:03
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,7501096 sn
+Loglama Tarihi : 13.08.2021 21:42:58
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,910834 sn
+Loglama Tarihi : 13.08.2021 21:42:58
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,0588743 sn
+Loglama Tarihi : 13.08.2021 21:42:59
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,2095373 sn
+Loglama Tarihi : 13.08.2021 21:42:59
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,359704 sn
+Loglama Tarihi : 13.08.2021 21:45:09
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,5032267 sn
+Loglama Tarihi : 13.08.2021 21:45:09
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,6473458 sn
+Loglama Tarihi : 13.08.2021 21:45:09
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,7894149 sn
+Loglama Tarihi : 13.08.2021 21:45:09
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,9559837 sn
+Loglama Tarihi : 13.08.2021 21:45:10
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,6403105 sn
+Loglama Tarihi : 13.08.2021 21:47:27
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,7945836 sn
+Loglama Tarihi : 13.08.2021 21:47:28
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,9529502 sn
+Loglama Tarihi : 13.08.2021 21:47:28
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,106948 sn
+Loglama Tarihi : 13.08.2021 21:47:28
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,2606039 sn
+Loglama Tarihi : 13.08.2021 21:47:28
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,4142527 sn
+Loglama Tarihi : 13.08.2021 21:47:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,5683874 sn
+Loglama Tarihi : 13.08.2021 21:47:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,725088 sn
+Loglama Tarihi : 13.08.2021 21:47:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,8785223 sn
+Loglama Tarihi : 13.08.2021 21:47:42
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,0330141 sn
+Loglama Tarihi : 13.08.2021 21:47:42
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,183899 sn
+Loglama Tarihi : 13.08.2021 21:50:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,332181 sn
+Loglama Tarihi : 13.08.2021 21:50:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,4815263 sn
+Loglama Tarihi : 13.08.2021 21:50:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,6287904 sn
+Loglama Tarihi : 13.08.2021 21:50:40
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,7766888 sn
+Loglama Tarihi : 13.08.2021 21:50:40
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,9245159 sn
+Loglama Tarihi : 13.08.2021 21:51:24
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,0732951 sn
+Loglama Tarihi : 13.08.2021 21:51:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,2241496 sn
+Loglama Tarihi : 13.08.2021 21:51:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,371316 sn
+Loglama Tarihi : 13.08.2021 21:51:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,5202065 sn
+Loglama Tarihi : 13.08.2021 21:51:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,667622 sn
+Loglama Tarihi : 13.08.2021 21:51:36
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,8174038 sn
+Loglama Tarihi : 13.08.2021 21:51:37
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,9660232 sn
+Loglama Tarihi : 13.08.2021 21:51:37
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,1136124 sn
+Loglama Tarihi : 13.08.2021 21:51:37
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,2612168 sn
+Loglama Tarihi : 13.08.2021 21:51:38
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,4093715 sn
+Loglama Tarihi : 13.08.2021 21:51:38
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,55724 sn
+Loglama Tarihi : 13.08.2021 21:51:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,7047965 sn
+Loglama Tarihi : 13.08.2021 21:51:57
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,8523654 sn
+Loglama Tarihi : 13.08.2021 21:51:57
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,0271959 sn
+Loglama Tarihi : 13.08.2021 21:51:57
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,1744434 sn
+Loglama Tarihi : 13.08.2021 21:51:58
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,9427402 sn
+Loglama Tarihi : 13.08.2021 21:54:40
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,0948977 sn
+Loglama Tarihi : 13.08.2021 21:54:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,2472369 sn
+Loglama Tarihi : 13.08.2021 21:54:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,4006241 sn
+Loglama Tarihi : 13.08.2021 21:54:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,5531885 sn
+Loglama Tarihi : 13.08.2021 21:54:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,7054881 sn
+Loglama Tarihi : 13.08.2021 21:54:42
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,4494996 sn
+Loglama Tarihi : 13.08.2021 22:02:03
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,6003178 sn
+Loglama Tarihi : 13.08.2021 22:03:17
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,7472729 sn
+Loglama Tarihi : 13.08.2021 22:03:50
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,8905312 sn
+Loglama Tarihi : 13.08.2021 22:04:22
+
+Metot İsmi : ProductList
+Çalışma Süresi : 12,0382426 sn
+Loglama Tarihi : 13.08.2021 22:04:35
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,4857792 sn
+Loglama Tarihi : 13.08.2021 22:49:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,6812862 sn
+Loglama Tarihi : 13.08.2021 22:49:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,8388088 sn
+Loglama Tarihi : 13.08.2021 22:49:47
+
+Metot İsmi : ProductList
+Çalışma Süresi : 2,9953454 sn
+Loglama Tarihi : 13.08.2021 22:49:47
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,1543254 sn
+Loglama Tarihi : 13.08.2021 22:49:53
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,3029144 sn
+Loglama Tarihi : 13.08.2021 22:49:54
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,4674836 sn
+Loglama Tarihi : 13.08.2021 22:49:56
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,6410629 sn
+Loglama Tarihi : 13.08.2021 22:50:15
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,7895345 sn
+Loglama Tarihi : 13.08.2021 22:50:15
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,8590744 sn
+Loglama Tarihi : 14.08.2021 10:39:59
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,2158134 sn
+Loglama Tarihi : 14.08.2021 10:40:37
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,3918903 sn
+Loglama Tarihi : 14.08.2021 10:40:54
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,5498633 sn
+Loglama Tarihi : 14.08.2021 10:41:16
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,8134529 sn
+Loglama Tarihi : 14.08.2021 10:41:30
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,9633924 sn
+Loglama Tarihi : 14.08.2021 10:41:49
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,1220722 sn
+Loglama Tarihi : 14.08.2021 10:41:51
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,2776396 sn
+Loglama Tarihi : 14.08.2021 10:42:28
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,4231589 sn
+Loglama Tarihi : 14.08.2021 10:42:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,5728424 sn
+Loglama Tarihi : 14.08.2021 10:42:51
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,7139712 sn
+Loglama Tarihi : 14.08.2021 10:42:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,8610669 sn
+Loglama Tarihi : 14.08.2021 10:43:17
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,0148513 sn
+Loglama Tarihi : 14.08.2021 10:43:23
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,2639971 sn
+Loglama Tarihi : 14.08.2021 10:43:58
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,53018 sn
+Loglama Tarihi : 14.08.2021 10:44:13
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,6921807 sn
+Loglama Tarihi : 14.08.2021 10:44:50
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,5218191 sn
+Loglama Tarihi : 14.08.2021 10:49:44
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,6832256 sn
+Loglama Tarihi : 14.08.2021 10:50:57
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,8329378 sn
+Loglama Tarihi : 14.08.2021 10:51:36
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,9836604 sn
+Loglama Tarihi : 14.08.2021 10:52:21
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,1731593 sn
+Loglama Tarihi : 14.08.2021 10:53:58
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,335697 sn
+Loglama Tarihi : 14.08.2021 10:54:32
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,0678916 sn
+Loglama Tarihi : 14.08.2021 10:55:01
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,2225019 sn
+Loglama Tarihi : 14.08.2021 10:55:11
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,3791651 sn
+Loglama Tarihi : 14.08.2021 10:55:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,5312129 sn
+Loglama Tarihi : 14.08.2021 10:55:45
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,6872888 sn
+Loglama Tarihi : 14.08.2021 10:56:47
+
+Metot İsmi : ProductList
+Çalışma Süresi : 11,8955107 sn
+Loglama Tarihi : 14.08.2021 10:56:50
+
+Metot İsmi : ProductList
+Çalışma Süresi : 12,0836548 sn
+Loglama Tarihi : 14.08.2021 10:57:10
+
+Metot İsmi : ProductList
+Çalışma Süresi : 12,2401817 sn
+Loglama Tarihi : 14.08.2021 10:57:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 12,395722 sn
+Loglama Tarihi : 14.08.2021 10:57:37
+
+Metot İsmi : ProductList
+Çalışma Süresi : 12,5538683 sn
+Loglama Tarihi : 14.08.2021 10:58:00
+
+Metot İsmi : ProductList
+Çalışma Süresi : 12,7032594 sn
+Loglama Tarihi : 14.08.2021 10:58:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 12,8464589 sn
+Loglama Tarihi : 14.08.2021 10:59:02
+
+Metot İsmi : ProductList
+Çalışma Süresi : 13,0035092 sn
+Loglama Tarihi : 14.08.2021 10:59:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 14,4384428 sn
+Loglama Tarihi : 14.08.2021 11:00:18
+
+Metot İsmi : ProductList
+Çalışma Süresi : 14,5951909 sn
+Loglama Tarihi : 14.08.2021 11:01:05
+
+Metot İsmi : ProductList
+Çalışma Süresi : 14,7498951 sn
+Loglama Tarihi : 14.08.2021 11:01:26
+
+Metot İsmi : ProductList
+Çalışma Süresi : 14,9233486 sn
+Loglama Tarihi : 14.08.2021 11:01:47
+
+Metot İsmi : ProductList
+Çalışma Süresi : 15,0846463 sn
+Loglama Tarihi : 14.08.2021 11:02:10
+
+Metot İsmi : ProductList
+Çalışma Süresi : 15,2353643 sn
+Loglama Tarihi : 14.08.2021 11:02:24
+
+Metot İsmi : ProductList
+Çalışma Süresi : 15,392516 sn
+Loglama Tarihi : 14.08.2021 11:02:26
+
+Metot İsmi : ProductList
+Çalışma Süresi : 15,5453599 sn
+Loglama Tarihi : 14.08.2021 11:05:11
+
+Metot İsmi : ProductList
+Çalışma Süresi : 16,1763901 sn
+Loglama Tarihi : 14.08.2021 11:08:22
+
+Metot İsmi : ProductList
+Çalışma Süresi : 16,3300981 sn
+Loglama Tarihi : 14.08.2021 11:08:45
+
+Metot İsmi : ProductList
+Çalışma Süresi : 16,4823894 sn
+Loglama Tarihi : 14.08.2021 11:09:30
+
+Metot İsmi : ProductList
+Çalışma Süresi : 16,7321145 sn
+Loglama Tarihi : 14.08.2021 11:09:53
+
+Metot İsmi : ProductList
+Çalışma Süresi : 16,8808672 sn
+Loglama Tarihi : 14.08.2021 11:10:00
+
+Metot İsmi : ProductList
+Çalışma Süresi : 17,0481355 sn
+Loglama Tarihi : 14.08.2021 11:10:24
+
+Metot İsmi : ProductList
+Çalışma Süresi : 17,192436 sn
+Loglama Tarihi : 14.08.2021 11:10:30
+
+Metot İsmi : ProductList
+Çalışma Süresi : 17,3466806 sn
+Loglama Tarihi : 14.08.2021 11:10:37
+
+Metot İsmi : ProductList
+Çalışma Süresi : 17,4965124 sn
+Loglama Tarihi : 14.08.2021 11:10:45
+
+Metot İsmi : ProductList
+Çalışma Süresi : 17,6441525 sn
+Loglama Tarihi : 14.08.2021 11:10:54
+
+Metot İsmi : ProductList
+Çalışma Süresi : 17,7890427 sn
+Loglama Tarihi : 14.08.2021 11:11:46
+
+Metot İsmi : ProductList
+Çalışma Süresi : 17,9375577 sn
+Loglama Tarihi : 14.08.2021 11:12:30
+
+Metot İsmi : ProductList
+Çalışma Süresi : 18,1905534 sn
+Loglama Tarihi : 14.08.2021 11:13:11
+
+Metot İsmi : ProductList
+Çalışma Süresi : 18,808925 sn
+Loglama Tarihi : 14.08.2021 11:14:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 18,9640756 sn
+Loglama Tarihi : 14.08.2021 11:15:04
+
+Metot İsmi : ProductList
+Çalışma Süresi : 19,1191039 sn
+Loglama Tarihi : 14.08.2021 11:15:10
+
+Metot İsmi : ProductList
+Çalışma Süresi : 19,2679452 sn
+Loglama Tarihi : 14.08.2021 11:15:43
+
+Metot İsmi : ProductList
+Çalışma Süresi : 19,4194625 sn
+Loglama Tarihi : 14.08.2021 11:15:50
+
+Metot İsmi : ProductList
+Çalışma Süresi : 19,5777315 sn
+Loglama Tarihi : 14.08.2021 11:16:00
+
+Metot İsmi : ProductList
+Çalışma Süresi : 19,7272452 sn
+Loglama Tarihi : 14.08.2021 11:16:06
+
+Metot İsmi : ProductList
+Çalışma Süresi : 19,8766181 sn
+Loglama Tarihi : 14.08.2021 11:16:16
+
+Metot İsmi : ProductList
+Çalışma Süresi : 20,0361656 sn
+Loglama Tarihi : 14.08.2021 11:16:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 20,191338 sn
+Loglama Tarihi : 14.08.2021 11:16:36
+
+Metot İsmi : ProductList
+Çalışma Süresi : 20,3465066 sn
+Loglama Tarihi : 14.08.2021 11:16:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 20,6033276 sn
+Loglama Tarihi : 14.08.2021 11:17:43
+
+Metot İsmi : ProductList
+Çalışma Süresi : 20,7454866 sn
+Loglama Tarihi : 14.08.2021 11:18:06
+
+Metot İsmi : ProductList
+Çalışma Süresi : 20,894823 sn
+Loglama Tarihi : 14.08.2021 11:19:16
+
+Metot İsmi : ProductList
+Çalışma Süresi : 21,495238 sn
+Loglama Tarihi : 14.08.2021 11:19:42
+
+Metot İsmi : ProductList
+Çalışma Süresi : 21,6318942 sn
+Loglama Tarihi : 14.08.2021 11:19:50
+
+Metot İsmi : ProductList
+Çalışma Süresi : 21,7729961 sn
+Loglama Tarihi : 14.08.2021 11:19:57
+
+Metot İsmi : ProductList
+Çalışma Süresi : 21,9135809 sn
+Loglama Tarihi : 14.08.2021 11:20:03
+
+Metot İsmi : ProductList
+Çalışma Süresi : 22,0592252 sn
+Loglama Tarihi : 14.08.2021 11:20:14
+
+Metot İsmi : ProductList
+Çalışma Süresi : 22,2002034 sn
+Loglama Tarihi : 14.08.2021 11:20:42
+
+Metot İsmi : ProductList
+Çalışma Süresi : 22,3386709 sn
+Loglama Tarihi : 14.08.2021 11:20:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 22,4812743 sn
+Loglama Tarihi : 14.08.2021 11:21:04
+
+Metot İsmi : ProductList
+Çalışma Süresi : 22,6341845 sn
+Loglama Tarihi : 14.08.2021 11:21:22
+
+Metot İsmi : ProductList
+Çalışma Süresi : 22,8045258 sn
+Loglama Tarihi : 14.08.2021 11:21:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 22,956704 sn
+Loglama Tarihi : 14.08.2021 11:21:56
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,3583229 sn
+Loglama Tarihi : 14.08.2021 13:26:47
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,5598014 sn
+Loglama Tarihi : 14.08.2021 13:26:57
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,7380101 sn
+Loglama Tarihi : 14.08.2021 13:27:07
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,90875 sn
+Loglama Tarihi : 14.08.2021 13:27:15
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,0695076 sn
+Loglama Tarihi : 14.08.2021 13:27:22
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,2404137 sn
+Loglama Tarihi : 14.08.2021 13:28:03
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,4046797 sn
+Loglama Tarihi : 14.08.2021 13:28:15
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,6027765 sn
+Loglama Tarihi : 14.08.2021 13:29:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,7621538 sn
+Loglama Tarihi : 14.08.2021 13:30:41
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,9213863 sn
+Loglama Tarihi : 14.08.2021 13:30:44
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,079838 sn
+Loglama Tarihi : 14.08.2021 13:30:54
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,233551 sn
+Loglama Tarihi : 14.08.2021 13:30:59
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,3854849 sn
+Loglama Tarihi : 14.08.2021 13:31:30
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,5418006 sn
+Loglama Tarihi : 14.08.2021 13:31:43
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,2832715 sn
+Loglama Tarihi : 14.08.2021 13:32:09
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,4315076 sn
+Loglama Tarihi : 14.08.2021 13:32:23
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,5831199 sn
+Loglama Tarihi : 14.08.2021 13:33:11
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,7354049 sn
+Loglama Tarihi : 14.08.2021 13:33:38
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,8840507 sn
+Loglama Tarihi : 14.08.2021 13:34:02
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,0371672 sn
+Loglama Tarihi : 14.08.2021 13:34:10
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,1882457 sn
+Loglama Tarihi : 14.08.2021 13:34:36
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,344013 sn
+Loglama Tarihi : 14.08.2021 13:34:49
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,4981045 sn
+Loglama Tarihi : 14.08.2021 13:34:55
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,6619233 sn
+Loglama Tarihi : 14.08.2021 13:34:59
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,816732 sn
+Loglama Tarihi : 14.08.2021 13:35:13
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,9741378 sn
+Loglama Tarihi : 14.08.2021 13:35:20
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,1237235 sn
+Loglama Tarihi : 14.08.2021 13:35:54
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,2805951 sn
+Loglama Tarihi : 14.08.2021 13:36:24
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,4374731 sn
+Loglama Tarihi : 14.08.2021 13:36:51
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,6069045 sn
+Loglama Tarihi : 14.08.2021 13:36:54
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,2535267 sn
+Loglama Tarihi : 14.08.2021 13:37:20
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,4824973 sn
+Loglama Tarihi : 14.08.2021 13:37:46
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,6357227 sn
+Loglama Tarihi : 14.08.2021 13:38:10
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,7852419 sn
+Loglama Tarihi : 14.08.2021 13:38:26
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,9302971 sn
+Loglama Tarihi : 14.08.2021 13:39:25
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,0825519 sn
+Loglama Tarihi : 14.08.2021 13:39:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,228834 sn
+Loglama Tarihi : 14.08.2021 13:40:07
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,3780288 sn
+Loglama Tarihi : 14.08.2021 13:40:28
+
+Metot İsmi : ProductList
+Çalışma Süresi : 10,5342982 sn
+Loglama Tarihi : 14.08.2021 13:40:56
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,221118 sn
+Loglama Tarihi : 14.08.2021 14:04:05
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,4463469 sn
+Loglama Tarihi : 14.08.2021 14:04:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,6245545 sn
+Loglama Tarihi : 14.08.2021 14:04:52
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,7786304 sn
+Loglama Tarihi : 14.08.2021 14:05:02
+
+Metot İsmi : ProductList
+Çalışma Süresi : 3,9389506 sn
+Loglama Tarihi : 14.08.2021 14:05:21
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,0920043 sn
+Loglama Tarihi : 14.08.2021 14:05:58
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,25653 sn
+Loglama Tarihi : 14.08.2021 14:06:11
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,4141316 sn
+Loglama Tarihi : 14.08.2021 14:06:28
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,5718776 sn
+Loglama Tarihi : 14.08.2021 14:07:35
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,7337399 sn
+Loglama Tarihi : 14.08.2021 14:07:43
+
+Metot İsmi : ProductList
+Çalışma Süresi : 4,8941415 sn
+Loglama Tarihi : 14.08.2021 14:07:52
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,0630162 sn
+Loglama Tarihi : 14.08.2021 14:08:00
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,2385948 sn
+Loglama Tarihi : 14.08.2021 14:08:09
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,8211335 sn
+Loglama Tarihi : 14.08.2021 14:09:22
+
+Metot İsmi : ProductList
+Çalışma Süresi : 5,9675711 sn
+Loglama Tarihi : 14.08.2021 14:10:20
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,1166371 sn
+Loglama Tarihi : 14.08.2021 14:10:39
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,2792767 sn
+Loglama Tarihi : 14.08.2021 14:12:34
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,4725124 sn
+Loglama Tarihi : 14.08.2021 14:12:42
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,6202503 sn
+Loglama Tarihi : 14.08.2021 14:13:02
+
+Metot İsmi : ProductList
+Çalışma Süresi : 6,7674119 sn
+Loglama Tarihi : 14.08.2021 14:13:11
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,4381753 sn
+Loglama Tarihi : 14.08.2021 14:14:36
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,6509957 sn
+Loglama Tarihi : 14.08.2021 14:15:59
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,7955726 sn
+Loglama Tarihi : 14.08.2021 14:19:02
+
+Metot İsmi : ProductList
+Çalışma Süresi : 7,9415168 sn
+Loglama Tarihi : 14.08.2021 14:19:14
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,0875365 sn
+Loglama Tarihi : 14.08.2021 14:19:35
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,7568176 sn
+Loglama Tarihi : 14.08.2021 14:19:49
+
+Metot İsmi : ProductList
+Çalışma Süresi : 8,911323 sn
+Loglama Tarihi : 14.08.2021 14:19:51
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,0722982 sn
+Loglama Tarihi : 14.08.2021 14:19:59
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,2435009 sn
+Loglama Tarihi : 14.08.2021 14:20:10
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,4410043 sn
+Loglama Tarihi : 14.08.2021 14:20:19
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,5947345 sn
+Loglama Tarihi : 14.08.2021 14:22:02
+
+Metot İsmi : ProductList
+Çalışma Süresi : 9,7518301 sn
+Loglama Tarihi : 14.08.2021 14:22:18
+

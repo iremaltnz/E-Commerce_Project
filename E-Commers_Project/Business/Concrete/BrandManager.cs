@@ -31,7 +31,8 @@ namespace Business.Concrete
             _brandDal.Delete(brand);
             return new SuccessResult(Messages.successDeleted);
         }
-        [TimeLoggerAspect]
+
+        
         public IDataResult<List<Brand>> BrandList()
         {
             return new SuccessDataResult<List<Brand>>(_brandDal.List(), Messages.successListed);

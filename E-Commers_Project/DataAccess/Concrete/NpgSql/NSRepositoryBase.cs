@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.NpgSql
@@ -54,6 +55,14 @@ namespace DataAccess.Concrete.NpgSql
                 updatedEntity.State = EntityState.Modified;
                 context.SaveChanges();
 
+            }
+        }
+
+        public TEntity GetById(Expression<Func<TEntity, bool>> filter)
+        {
+            using (Context context = new Context())
+            {
+                return context.Set<TEntity>().SingleOrDefault(filter);
             }
         }
     }
