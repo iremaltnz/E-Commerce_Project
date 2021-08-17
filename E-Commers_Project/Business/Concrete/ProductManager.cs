@@ -42,9 +42,9 @@ namespace Business.Concrete
             return new SuccessResult(Messages.successDeleted);
         }
 
-        public IDataResult<List<Product>> ProductList()
+        public IDataResult<List<productDto>> ProductList()
         {
-            return new SuccessDataResult<List<Product>>(_productDal.List(), Messages.successListed);
+            return new SuccessDataResult<List<productDto>>(_productDal.GetProductDetails(null), Messages.successListed);
         }
 
         public IResult ProductUpdate(Product product)
