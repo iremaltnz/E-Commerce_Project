@@ -12,5 +12,9 @@ namespace Business.Constants
         public static string successDeleted = "Silme İşlemi Başarılı";
         public static string errorAdded = "Ekleme İşlemi Başarısız";
 
+        public static string userNotFound = "Böyle bir kullanıcı yok";
+        public static string passwordError = "Şifre bilgisi yanlış";
+        public static string successLogin = "Giriş Başarılı";
+        public static string successRegister = "Kayıt Başarılı";
     }
 }
