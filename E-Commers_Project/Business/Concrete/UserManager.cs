@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.Aspects.Mail;
 using Business.Constants;
 using Business.Utilities.Hashing;
 using Business.Utilities.Results;
@@ -57,6 +58,10 @@ namespace Business.Concrete
             };
 
             _userDal.Add(user);
+            if (user.authority_id == 2)
+            {
+                EditörSendMail.SendMail(user.email,password);
+            }
             return new SuccessDataResult<User>(user, Messages.successRegister);
         }
     }
