@@ -1,5 +1,7 @@
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolvers;
+using Business.Extensions;
 using DataAccess;
 using DataAccess.Abstract;
 using DataAccess.Concrete.NpgSql;
@@ -43,6 +45,10 @@ namespace WebAPI
             //services.AddSingleton<IBrandService, BrandManager>();
             //services.AddSingleton<IBrandDal, NSBrandDal>();
 
+
+            services.AddDependencyResolvers(new ICoreModule[] {
+                 new CoreModule()
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

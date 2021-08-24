@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.Aspects.Cache;
 using Business.Aspects.Perfomance;
 using Business.Constants;
 using Business.Utilities.Results;
@@ -32,7 +33,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.successDeleted);
         }
 
-        
+       [CacheAspect]
         public IDataResult<List<Brand>> BrandList()
         {
             return new SuccessDataResult<List<Brand>>(_brandDal.List(), Messages.successListed);

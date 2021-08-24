@@ -33,6 +33,8 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
             builder.RegisterType<NSUserDal>().As<IUserDal>().SingleInstance();
 
+            
+
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
@@ -41,5 +43,7 @@ namespace Business.DependencyResolvers.Autofac
                         Selector = new AspectInterceptorSelector()
                     }).SingleInstance();
         }
+
+        
     }
 }

@@ -9,7 +9,7 @@ using System.Text;
 
 namespace Business.Aspects.Cache
 {
-   public class CacheAspect: MethodInterception
+    public class CacheAspect: MethodInterception
     {
         private int duration;
         IMemoryCache _memoryCache;
@@ -40,17 +40,6 @@ namespace Business.Aspects.Cache
             invocation.Proceed();
             _memoryCache.Set(key, invocation.ReturnValue, TimeSpan.FromMinutes(duration));
 
-        }
-    }
-
-    public static class ServiceTool
-    {
-        public static IServiceProvider ServiceProvider { get; private set; }
-
-        public static IServiceCollection Create(IServiceCollection services)
-        {
-            ServiceProvider = services.BuildServiceProvider();
-            return services;
         }
     }
 }
